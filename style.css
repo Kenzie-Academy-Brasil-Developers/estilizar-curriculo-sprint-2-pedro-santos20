@@ -1,3 +1,7 @@
+html, body, h1, h2 {
+	font-family: "Arial", sans-serif;
+}
+
 .clear {
 	clear: both;
 }
@@ -10,13 +14,16 @@
 
 #name {
 	float: left;
+	color: #444444;
 }
 
 #contactDetails {
 	float: right;
+	color: #181818;
 }
 
 .sectionTitle {
+	color: #cf8a05;
 	float: left;
 	width: 25%;
 }
@@ -24,4 +31,39 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+img {
+	border-radius: 50%;
+	width: 100px;	
+	height: 100px;
+	margin-top: 20px;
+}
+
+html {
+	background-color: #f3f3f3;
+}
+
+.subDetails {
+	color: #181818;
+}
+
+hr {
+	border-color: #dedede;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#cabeca {
+	border-width: 1px;
+	border-color: #cf8a05;
+	border-style: solid;
+}
+
+.pesquisa {
+	color: #444444;
+}
+
+.colegio {
+	color: #444444;
 }
